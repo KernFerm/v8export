@@ -28,7 +28,7 @@ This tool converts a PyTorch model (.pt) to TensorFlow.js format.
 
 Run the Python script `export.py` to convert the PyTorch model to TensorFlow format and then convert it to TensorFlow.js format.
 
-```bash```
+```bash
 python export.py --weights ./modelnamegoeshere.pt --include engine --half --img-size 320 320 --device 0
 ```
 
