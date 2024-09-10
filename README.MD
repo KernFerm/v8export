@@ -8,19 +8,19 @@ This tool converts a PyTorch model (.pt) to TensorFlow.js format.
 
 1. Install dependencies:
 
-    ```bash
+    ```
     pip install torch torchvision tensorflow
     ```
 
 2. Clone the repository:
-
-    ```bash
+  - make sure to make a folder on `Desktop` then `CD` it in `CMD.exe` then do the `Git Clone`.
+    ```
     git clone https://github.com/KernFerm/v8export.git
     ```
 
 3. Navigate to the project directory:
 
-    ```bash
+    ```
     cd v8export
     ```
 
@@ -28,7 +28,7 @@ This tool converts a PyTorch model (.pt) to TensorFlow.js format.
 
 Run the Python script `export.py` to convert the PyTorch model to TensorFlow format and then convert it to TensorFlow.js format.
 
-```bash
+```
 python export.py --weights ./modelnamegoeshere.pt --include engine --half --img-size 320 320 --device 0
 ```
 
